@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 579357 */
+  src: url('https://at.alicdn.com/t/font_579357_i64nv17f92ne9udi.eot');
+  src: url('https://at.alicdn.com/t/font_579357_i64nv17f92ne9udi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_579357_i64nv17f92ne9udi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_579357_i64nv17f92ne9udi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_579357_i64nv17f92ne9udi.svg#iconfont') format('svg');
+}
+
+header{
+	width: 100%;
+	height: 100%;
+	padding: 90px 0;
+	background: url('../img/afb2c1504c25c02052f76e97a95609fec5b8916a4e738-zJPY9e_fw658.jpg');
+	background-position: center 0;
+	background-size: cover;
+}
+#logo{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 246px;
+}
+.img{
+	width: 140px;
+	height: 140px;
+	border-radius: 140px;
+	border: 9px solid rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    background: url('../img/a253b5969f54b1cdc8baa3fb903daad4467231dbb2ee-yMqwJq_fw658.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+	font-size: 40px;
+	font-weight: 500;
+	color: #333;
+}
+.title1{
+	font-size: 30px;
+	font-weight: 400;
+	color: #333;
+	margin-top: 15px;
+	display: block;
+}
+section{
+	margin-top: 40px;
+}
+.content_title{
+	display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0 25px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 1px;
+    position: relative;
+    margin-top: 40px;
+}
+.content_title span:before,.content_title span:after{
+	content: "";
+    position: absolute;
+    height: 4px;
+    top: 19px;
+    width: 400%;
+	background-color: #565656;
+}
+.content_title span{
+	overflow: hidden;
+	position: relative;
+}
+.content_title span:before{
+	right: 100%;
+	margin-right: 45px;
+}
+.content_title span:after{
+	left: 100%;
+	margin-left: 45px;
+}
+.content_title1{
+	font-size: 30px;
+	color: #ccc;
+	font-weight: 200;
+	display: block;
+}
+.word1{
+	font-size: 18px;
+	color: #999;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 0 5px;
+}
+.personal{
+	width: 200px;
+	height: 200px;
+	border: 5px solid #E8165D;
+	border-radius: 200px;
+	margin: 0 auto;
+}
+.personal:hover{
+	box-shadow: 0 0 10px 3px rgba(232, 22, 93, 0.5);
+	cursor: pointer;
+}
+.personal:hover em{
+	transform: scale(1.2, 1.2);
+	cursor: pointer;
+}
+.personal em{
+	color: #E8165D;
+	font-size: 60px;
+	text-align: center;
+	line-height: 200px;
+	font-family: 'iconfont';
+	display: block;
+	font-style: normal;
+	transition: all 1s;
+}
+.title1{
+	font-size: 28px;
+	text-align: center;
+	color: #333;
+	font-weight: 500;
+}
+.title2{
+	font-size: 24px;
+	text-align: center;
+	color: #ccc;
+	font-weight: 500;
+	margin-top: 0;
+}
+.work1{
+	margin-bottom: 20px;
+	transition: all 0.5s linear;
+
+}
+a:hover{
+	text-decoration-line: none;
+}
+.beijing{
+	display: block;
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+    margin: 0 0 20px;
+}
+.work1:hover{
+	box-shadow: 0 10px 20px 5px #eaeaea;
+	transform: translate(0, -3px);
+}
+.content{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: #CB5379;
+	display: block;
+}
+.content1{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	color: #CB5379;
+}
+footer{
+	background-color: #232323;
+	padding: 30px 0;
+    font-size: 12px;
+    color: #999;
+}
+.footer_end a{
+	color: #fff;
+}
+.qfe_wrapper{
+	font-size: 24px;
+}
+.qfy-element {
+	width: 616px;
+	height: 32px;
+	border-radius: 5px;
+	background-color: #8d9095;
+	position: relative;
+	margin-top: 5px;
+}
+.qfy-element:after{
+	content: "";
+	background-color: #1abc9c;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.qfy-element1:after{
+	content: "";
+	background-color: #e74c3c;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.qfy-element2:after{
+	content: "";
+	background-color: #9b59b6;
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.line{
+	width: 650px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 22%;
+}
